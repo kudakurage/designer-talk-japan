@@ -1,0 +1,266 @@
+@charset "UTF-8";
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+audio, canvas,progress, video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none !important;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button {
+  overflow: visible;
+}
+button, select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td, th {
+  padding: 0;
+}
+blockquote, dl, h1, h2, h3, h4, h5, h6, figure, p, pre {
+  margin: 0;
+}
+dl {
+  text-align: left;
+}
+dt {
+  font-weight: bolder;
+}
+dd {
+  margin-bottom: 1em;
+}
+h1,h2,h3,h4,h5,h6 {
+  text-rendering:optimizeLegibility;
+  font-weight: normal;
+}
+iframe {
+  border:0
+}
+fieldset {
+  border:0;
+  margin:0;
+  padding:0
+}
+
+
+/* Styles
+   ========================================================================== */
+
+html {
+  color: #333;
+  font-family: Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+body {
+  margin: 0 20px 20px;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  color: #BE003F;
+}
+.subtle,
+.subtle a {
+  color: #999;
+}
+.subtle {
+  font-size: .85em;
+}
+.subtle a:hover {
+  color: #BE003F;
+}
+.logo {
+  margin: 2em 0;
+}
+.logo img {
+  width: 50%;
+  max-width: 300px;
+}
+h1 {
+  font-size: 3em;
+  margin-bottom: .3em;
+}
+h2 {
+  font-size: 1.25em;
+  margin-bottom: .3em;
+}
+h2 span {
+  display: block;
+  font-size: 0.8em;
+  color: #999;
+}
+h2 span a {
+  color: #999;
+}
+h2 span a:hover {
+  color: #BE003F;
+}
+.join {
+  background: #f9f9f9;
+  border-radius: 40px;
+  color: #BE003F;
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 1em 0;
+  padding: .3em 2em;
+  transition: .3s;
+}
+.join:hover {
+  background: #BE003F;
+  border-radius: 40px;
+  color: #f9f9f9;
+  transition: .5s;
+}
+.login a {
+  font-weight: bold;
+}
+.copyright {
+  margin: 5em 0 .5em;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: .85em;
+  }
+}
